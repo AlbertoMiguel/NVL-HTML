@@ -1,0 +1,6 @@
+
+La memoria del proyecto final de HTML.
+
+Durante este ejercicio he usado varias tecnicas de las explicadas en el primer modulo, entre ellas combinar imagenes y textos, utilizar anidamientos, listas , etc.
+Para los textos he utilizado el generador de textos aleatorios Lorem ipsum.
+En la parte de contacto que se pedia , podría haber insertado un formulario con una etiqueta del tipo email y otra de texto, pero he preferido utilizar la etiqueta <a> con una funcion mailto, ya que ahorra tiempo y es mucho mas sencilla de implementar.
