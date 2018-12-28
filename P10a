@@ -1,0 +1,81 @@
+
+ <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+</head> 
+<body>
+  <div>
+     <form method="post" action="miservidor.php">
+    <div>
+      <label for=”CP”>Codigo postal    </label>
+      <input id=”CP” type=”number”>
+    </div>
+    <p></p>
+    <div>
+      <label for=”satisf”>satisfaccioón con el producto    </label>
+      <select id=”satisf”>
+        <option value=”1”>1</option>
+        <option value=”2”>2</option>
+        <option value=”3”>3</option>
+        <option value=”4”>4</option>
+        <option value=”5”>5</option>
+        <option value=”6”>6</option>
+        <option value=”7”>7</option>
+        <option value=”8”>8</option>
+      </select>
+    </div>
+    <p></p>
+    <div>
+    <label for=”PPosit”>Puntos positivos del producto</label><p></p>
+    <textarea id=”PPosit”></textarea>
+    </div>
+    <p></p>
+    <div>
+    <label for=”PNegat”>Puntos negativos del producto</label><p></p>
+    <textarea id=”PNegat”></textarea>
+    </div>
+    <p></p>
+    <div>
+      <label for=”email”>Email   </label>
+      <input id=”email” type="email">
+    </div><p></p>
+    <div>
+      <label for=”Calidad”>Relación calidad/precio   </label>
+      <select id=”Calidad”>
+        <option value=”5”>Excelente</option>
+        <option value=”4”>Bueno</option>
+        <option value=”3”>Regular</option>
+        <option value=”2”>Malo</option>
+        <option value=”1”>Pesimo</option>        
+      </select>
+    </div><p></p>
+    <div>
+      <label for=”Resistencia”>Resistencia   </label>
+      <select id=”Resistencia”>
+        <option value=”5”>Excelente</option>
+        <option value=”4”>Bueno</option>
+        <option value=”3”>Regular</option>
+        <option value=”2”>Malo</option>
+        <option value=”1”>Pesimo</option>        
+      </select>
+    </div><p></p> 
+    <div>
+      <label for=”Facil”>Facilidad de uso   </label>
+      <select id=”Facil”>
+        <option value=”5”>Excelente</option>
+        <option value=”4”>Bueno</option>
+        <option value=”3”>Regular</option>
+        <option value=”2”>Malo</option>
+        <option value=”1”>Pesimo</option>        
+      </select>
+    </div>        
+    
+  
+  <input type=”submit” value=”Enviar”> 
+</form>
+  
+  </div>
+</body>
+</html>
